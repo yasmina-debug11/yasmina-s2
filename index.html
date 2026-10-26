@@ -111,9 +111,67 @@ section{padding:30px 0}.section-head{display:flex;justify-content:space-between;
 
 <section id="quiz"><div class="wrap"><div class="section-head"><div><h2>05 / Adaptive Lore Quiz</h2><p>Can you remember the origin story? Pick one answer per question.</p></div><span class="eyebrow">3 QUESTIONS</span></div>
 <div class="card"><div id="quizContainer">
-  <div class="quiz-question" data-q="1"><b>1. Where did Yasmin and Rabi first meet?</b><div class="answers"><button class="answer" data-correct="true">A) Valorant</button><button class="answer">B) A military museum</button><button class="answer">C) A Top Gun screening</button><button class="answer">D) A helicopter hangar</button></div></div>
-  <div class="quiz-question" data-q="2"><b>2. Why did Yasmin stop playing?</b><div class="answers"><button class="answer">A) She became a pro player</button><button class="answer" data-correct="true">B) Her internet connection was unreliable</button><button class="answer">C) Rabi banned her</button><button class="answer">D) She switched to flying helicopters</button></div></div>
-  <div class="quiz-question" data-q="3"><b>3. Which character is Yasmin's favorite?</b><div class="answers"><button class="answer">A) Soldier Boy</button><button class="answer">B) Jett</button><button class="answer" data-correct="true">C) Gojo Satoru</button><button class="answer">D) Maverick</button></div></div>
+  
+<div class="quiz-question" data-q="1">
+  <h3>01. Which of Rabi’s stories fascinated me the most?</h3>
+
+  <button class="answer" data-correct="false">
+    A) His swimming experience at a dam
+  </button>
+
+  <button class="answer" data-correct="true">
+    B) His experience going on a military submarine with his dad
+  </button>
+
+  <button class="answer" data-correct="false">
+    C) His funniest gaming story
+  </button>
+
+  <button class="answer" data-correct="false">
+    D) His school memories
+  </button>
+</div>
+
+<div class="quiz-question" data-q="2">
+  <h3>02. What is Yasmin’s birthday?</h3>
+
+  <button class="answer" data-correct="false">
+    A) April 12th
+  </button>
+
+  <button class="answer" data-correct="true">
+    B) May 23rd
+  </button>
+
+  <button class="answer" data-correct="false">
+    C) May 26th
+  </button>
+
+  <button class="answer" data-correct="false">
+    D) April 23rd
+  </button>
+</div>
+
+<div class="quiz-question" data-q="3">
+  <h3>03. What nickname do I love being called the most?</h3>
+
+  <button class="answer" data-correct="false">
+    A) Jasmine
+  </button>
+
+  <button class="answer" data-correct="true">
+    B) Yasmina
+  </button>
+
+  <button class="answer" data-correct="false">
+    C) Yasmin
+  </button>
+
+  <button class="answer" data-correct="false">
+    D) Yasso
+  </button>
+</div>
+</div>
 </div>
 <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:18px"><span class="mono small" id="scoreLabel">SCORE: 0 / 3</span><button class="btn" onclick="resetQuiz()">Reset quiz ↻</button></div>
 <div class="result" id="quizResult"><div class="trophy" id="trophy">🏆</div><h3 id="resultTitle">PLAYER 2 UNLOCKED</h3><p id="resultText">The lore is strong with this one.</p><span class="eyebrow" id="achievement">ACHIEVEMENT UNLOCKED</span></div>
